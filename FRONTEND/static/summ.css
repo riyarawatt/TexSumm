@@ -1,0 +1,83 @@
+body{
+    margin: 0px 0px;
+    font-family: corbel;
+    background: url(bg_image.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container
+{
+    text-align: center;
+    padding: 30px;
+}
+
+label.paste_label{
+    size: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+    font-weight: bolder;
+    font-size: 3.5em;
+    color: green;
+}
+
+label.heading{
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input{
+    left: 10px;
+    width: 450px;
+    margin: 25px 0;
+    padding: 10px 10px;
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color: wheat;
+    outline: none;
+}
+
+button{
+    left: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1em;
+    color: ivory;
+    background-color: green;
+    outline: none;
+}
+
+button:hover{
+    color:white;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: translateY(2px);
+}
+
+label.summary_label{
+    text-align: left;
+    font-size: 2em;
+    font-weight: bolder;
+
+}
+
+#textarea{
+    padding: 30px;
+    outline: solid black;
+    left: 10px;
+    width: 800px;
+    height: 300px;
+    padding: 10px 20px;
+    line-height: 25px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background: transparent;
+    color: solid black;
+    overflow: auto;
+}

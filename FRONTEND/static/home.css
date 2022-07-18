@@ -1,0 +1,46 @@
+body{
+    margin: 0px 0px;
+    font-family: corbel;
+    background: url(bg_image.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.heading{
+    size: 6em;
+    width: 100%;
+    padding: 7px 0px;
+    font-family: corbel;
+    color: rgb(19, 128, 0);
+    font-weight: bold;
+}
+
+#para{
+    font-size: 150%;
+    size: 6em;
+    width: 100%;
+    padding: 7px 0px;
+    font-family: corbel;
+    font-weight: bold;
+}
+
+button{
+    left: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1em;
+    color: ivory;
+    background-color: green;
+    outline: none;
+    margin-right: 50px;
+}
+
+button:hover{
+    color:white;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: translateY(2px);
+}
